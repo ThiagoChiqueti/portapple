@@ -1,15 +1,18 @@
+
 import App_icon from "../app_icon";
 
 const StackSection: React.FC = () => {
   return (
     <div className="flex flex-row flex-wrap items-center justify-center gap-5 sm:gap-10 mt-6">
       <App_icon
-        src="/about.svg"
-        alt="Sobre"
+        src="/python.svg"
+        alt="Python"
         height={60}
         width={60}
-        name="Sobre"
+        name="Python"
       />
+      
+      <a href="#elixir" rel="noopener noreferrer">
       <App_icon
         src="/elixir.svg"
         alt="Elixir"
@@ -17,6 +20,8 @@ const StackSection: React.FC = () => {
         width={60}
         name="Elixir"
       />
+      </a>
+     
       <App_icon
         src="/node.svg"
         alt="Node"

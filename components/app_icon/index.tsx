@@ -11,11 +11,11 @@ interface props {
   
 }
 
-const App_icon: React.FC<props> = ({ src, alt, width, height, name }) => {
+const App_icon: React.FC<props> = ({ src, alt, width, height, name}) => {
   return (
     
       <div className="flex flex-col items-center hover:-translate-y-6 hover:scale-110 transition-all duration-300 cursor-pointer">
-        <div className="  bg-white rounded-xl">
+        <div className="bg-white rounded-xl">
           <Image
             src={src}
             alt={alt}
