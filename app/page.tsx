@@ -11,29 +11,47 @@ export default async function Home() {
           <StackSection />
 
           <div className="flex flex-row justify-between flex-wrap gap-4 w-full">
-            <div className="max-w-xl h-64 mt-4 border-s-2 border-gray-300 ">
-              <h1 className="text-white px-4 text-2xl">Sobre:</h1>
-              <div className="text-white p-4">
-                <p>
-                  O Thiago é um desenvolvedor movido à desafios! Hoje busca
-                  crescimento profissional e aprendizado como método de
-                  constante evolução.
-                </p>
-                <p>
-                  Apaixonado por entender como tudo funciona está sempre
-                  aprendendo uma automação nova ou o funcionamento de alguma
-                  aplicação
-                </p>
+            <div className="flex flex-wrap" >
+              <div className="max-w-xl h-64 mt-4 border-s-2 border-gray-300 ">
+                <h1 className="text-white px-4 text-2xl">Sobre:</h1>
+                <div className="text-white p-4">
+                  <p>
+                    O Thiago é um desenvolvedor movido à desafios! Hoje busca
+                    crescimento profissional e aprendizado como método de
+                    constante evolução.
+                  </p>
+                  <p>
+                    Apaixonado por entender como tudo funciona está sempre
+                    aprendendo uma automação nova ou o funcionamento de alguma
+                    aplicação
+                  </p>
+                </div>
+              </div>
+
+              <div className="w-full sm:w-80 mt-4 bg-lime-400 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-30">
+                <h2
+                  className="text-white p-3 px-4 text-2xl font-bold"
+                  id="#elixir"
+                >
+                  Nota:{" "}
+                </h2>
+                <div className="text-white px-4 mb-6">
+                
+                  <p>O desenvolvimento deste portifólio foi inspirado em uma fusão de MacOs e Linux.</p>
+                  
+                </div>
+                
               </div>
             </div>
-            <div className="h-auto mt-4 w-full bg-neutral-800 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-600 mb-40">
+            <div className="h-auto mt-4 w-full bg-neutral-800 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-600 mb-40">
               <h2
                 className="text-white p-3 px-4 text-2xl font-bold"
                 id="#elixir"
               >
                 API Elixir:{" "}
               </h2>
-              <div className="flex justify-center flex-wrap">
+              
+              <div className="flex justify-center flex-wrap gap-10">
                 <div className="text-white px-4 mb-6">
                   <p className="text-xl"> Principais funcionalidades:</p>
                   <p>Cadastro e consulta de usuários</p>
@@ -42,28 +60,39 @@ export default async function Home() {
                   <p>Elixir, Phoenix e Ecto</p>
                   <p>Banco de dados PostgreSQL</p>
                 </div>
-                <div className="w-1/2 flex justify-center items-center gap-2 mb-3">
-                  <App_icon
-                    src="/elixir.svg"
-                    alt="Veja o código"
-                    height={60}
-                    width={60}
-                    name="Elixir"
-                  />
-                  <App_icon
-                    src="/postgres.svg"
-                    alt="postgres"
-                    height={60}
-                    width={60}
-                    name="Postgres"
-                  />
-                  <App_icon
-                    src="/github.svg"
-                    alt="Veja o código"
-                    height={60}
-                    width={60}
-                    name="Code"
-                  />
+                <div className="w-1/2 flex flex-col justify-center items-center gap-2 mb-3 md:-mt-10">
+                  <div className="flex gap-4">
+                    <App_icon
+                      src="/elixir.svg"
+                      alt="Veja o código"
+                      height={60}
+                      width={60}
+                      name="Elixir"
+                    />
+                    <App_icon
+                      src="/postgres.svg"
+                      alt="postgres"
+                      height={60}
+                      width={60}
+                      name="Postgres"
+                    />
+                  </div>
+                  <div className="flex gap-4">
+                    <App_icon
+                      src="/docker.svg"
+                      alt="Docker"
+                      height={60}
+                      width={60}
+                      name="Docker"
+                    />
+                    <App_icon
+                      src="/github.svg"
+                      alt="Veja o código"
+                      height={60}
+                      width={60}
+                      name="Code"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
