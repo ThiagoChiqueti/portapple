@@ -1,14 +1,17 @@
 import About from "@/components/about";
-import App_icon from "@/components/app_icon";
+import Block from "@/components/block";
+import BlockContentApi from "@/components/blockContentApi";
+import BlockContentElixir from "@/components/blockContentElixir";
+import Container from "@/components/container";
 import Note from "@/components/note";
 import Profile from "@/components/profile";
 import StackSection from "@/components/stackSection";
 
-export default async function Home() {
+export default function Home() {
   return (
     <>
       <main className="flex flex-col p-8 md:p-14 h-screen w-full items-center">
-        <div className="w-full h-auto flex flex-col items-center max-w-4xl">
+        <Container>
           <Profile />
           <StackSection />
 
@@ -17,68 +20,23 @@ export default async function Home() {
               <About />
 
               <Note
-                title="Nota:"
-                text="O desenvolvimento deste portifólio foi inspirado em uma
-                    fusão de MacOs e Linux."
+                title="Objetivo"
+                text="Estou no início de minha carreira e busco uma oportunidade 
+                para demonstrar e desenvolver minhas habilidades e talentos. Para compensar a pouca experiência carrego comigo muito empenho e dedicação."
               />
-              
             </div>
 
-            <div className="h-auto mt-4 w-full bg-neutral-800 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-600 mb-40">
-              <h2
-                className="text-white p-3 px-4 text-2xl font-bold"
-                id="#elixir"
-              >
-                API Elixir:{" "}
-              </h2>
-
-              <div className="flex justify-center flex-wrap gap-10">
-                <div className="text-white px-4 mb-6">
-                  <p className="text-xl"> Principais funcionalidades:</p>
-                  <p>Cadastro e consulta de usuários</p>
-                  <p>Proteção de senhas com criptografia</p>
-                  <p>Autênticação de sessão ativa via token JWT</p>
-                  <p>Elixir, Phoenix e Ecto</p>
-                  <p>Banco de dados PostgreSQL</p>
-                </div>
-                <div className="w-1/2 flex flex-col justify-center items-center gap-2 mb-3 md:-mt-10">
-                  <div className="flex gap-4">
-                    <App_icon
-                      src="/elixir.svg"
-                      alt="Veja o código"
-                      height={60}
-                      width={60}
-                      name="Elixir"
-                    />
-                    <App_icon
-                      src="/postgres.svg"
-                      alt="postgres"
-                      height={60}
-                      width={60}
-                      name="Postgres"
-                    />
-                  </div>
-                  <div className="flex gap-4">
-                    <App_icon
-                      src="/docker.svg"
-                      alt="Docker"
-                      height={60}
-                      width={60}
-                      name="Docker"
-                    />
-                    <App_icon
-                      src="/github.svg"
-                      alt="Veja o código"
-                      height={60}
-                      width={60}
-                      name="Code"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Block>
+              <BlockContentElixir />
+            </Block>
           </div>
-        </div>
+          <div className="flex flex-wrap w-full gap-4">
+            <Block>
+              <BlockContentApi />
+            </Block>
+          </div>
+          <div className="mb-40"></div>
+        </Container>
       </main>
     </>
   );
