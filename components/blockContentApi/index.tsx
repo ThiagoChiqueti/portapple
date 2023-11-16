@@ -1,15 +1,7 @@
-
 import React from "react";
 import BitcoinAPI from "../bitcoinApi";
 
-
-
-
 const BlockContentApi: React.FC = async () => {
-
-
-    
-
   return (
     <>
       <h2 className="text-white p-3 px-4 text-2xl font-bold" id="#elixir">
@@ -24,7 +16,7 @@ const BlockContentApi: React.FC = async () => {
         </div>
         <div className=" w-56 flex flex-col justify-center items-center gap-2 mb-3 md:-mt-10">
           <div className="flex gap-4">
-            <BitcoinAPI/>
+            <BitcoinAPI />
           </div>
         </div>
       </div>

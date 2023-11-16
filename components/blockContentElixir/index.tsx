@@ -10,7 +10,7 @@ const BlockContentElixir: React.FC = () => {
         API Elixir:{" "}
       </h2>
 
-      <div className="flex justify-center flex-wrap gap-10">
+      <div className="flex justify-around flex-wrap gap-10">
         <div className="text-white px-4 mb-6">
           <p className="text-xl"> Principais funcionalidades:</p>
           <p>Cadastro e consulta de usuários</p>
@@ -19,7 +19,7 @@ const BlockContentElixir: React.FC = () => {
           <p>Elixir, Phoenix e Ecto</p>
           <p>Banco de dados PostgreSQL</p>
         </div>
-        <div className="w-1/2 flex flex-col justify-center items-center gap-2 mb-3 md:-mt-10">
+        <div className="w-80 flex flex-col justify-center items-center gap-2 mb-3 md:-mt-10">
           <div className="flex gap-4">
             <App_icon
               src="/elixir.svg"

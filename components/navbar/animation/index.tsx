@@ -1,22 +1,23 @@
 "use client";
+
 import { motion } from "framer-motion";
+
 interface props {
   children: React.ReactNode;
 }
 
-const Block: React.FC<props> = ({ children }: props) => {
+const Animation: React.FC<props> = ({ children }) => {
   return (
     <motion.div
-      className="h-auto mt-4 w-full bg-neutral-800 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-600"
       initial={{
         opacity: 0,
-        y: 50,
+        y: 100,
       }}
-      whileInView={{
+      animate={{
         opacity: 1,
         y: 0,
         transition: {
-          duration: 2,
+          duration: 0.8,
         },
       }}
       viewport={{ once: true }}
@@ -26,4 +27,4 @@ const Block: React.FC<props> = ({ children }: props) => {
   );
 };
 
-export default Block;
+export default Animation;

@@ -27,14 +27,15 @@ export default function Home() {
             </div>
 
             <Block>
-              <BlockContentElixir />
-            </Block>
-          </div>
-          <div className="flex flex-wrap w-full gap-4">
-            <Block>
               <BlockContentApi />
             </Block>
+
+            <Block>
+              <BlockContentElixir />
+            </Block>
+            
           </div>
+          
           <div className="mb-40"></div>
         </Container>
       </main>

@@ -1,7 +1,7 @@
 "use client";
 import api from "@/services/api";
 import { useEffect, useState } from "react";
-import numeral from "numeral"
+import numeral from "numeral";
 
 const BitcoinAPI = () => {
   const [bitData, setBitData] = useState();
@@ -27,9 +27,13 @@ const BitcoinAPI = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const bitPrice = numeral(bitData?.BTCBRL?.bid).format('($0,0[.]00)')
+  const bitPrice = numeral(bitData?.BTCBRL.bid).format("($0,0[.]00)");
 
-  return bitData?.BTCBRL?.varBid < 0 ? <p className='text-red-400'>BTC-BRL {bitPrice}</p> : <p className='text-emerald-400'>BTC-BRL {bitPrice}</p>;
+  return bitData?.BTCBRL?.varBid < 0 ? (
+    <p className="text-red-400">BTC-BRL {bitPrice}</p>
+  ) : (
+    <p className="text-emerald-400">BTC-BRL {bitPrice}</p>
+  );
 };
 
 export default BitcoinAPI;
