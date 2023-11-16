@@ -23,7 +23,7 @@ const BitcoinAPI = () => {
 
     const interval = setInterval(() => {
       coinData();
-    }, 30000);
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
