@@ -27,9 +27,9 @@ const BitcoinAPI = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const bitPrice = numeral(bitData?.BTCBRL.bid).format("($0,0[.]00)");
+  const bitPrice = numeral(bitData?.['BTCBRL']['bid']).format("($0,0[.]00)");
 
-  return bitData?.BTCBRL?.varBid < 0 ? (
+  return bitData?.['BTCBRL']['varBid']! < 0 ? (
     <p className="text-red-400">BTC-BRL {bitPrice}</p>
   ) : (
     <p className="text-emerald-400">BTC-BRL {bitPrice}</p>
