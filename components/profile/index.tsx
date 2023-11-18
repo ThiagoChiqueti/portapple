@@ -2,19 +2,19 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-const Profile: React.FC= () => {
+const Profile: React.FC = () => {
   return (
     <motion.div
-    initial={{y: -500}}
-    animate={{ y: 0, 
-    transition:{
-      duration: 1
-    }}}
-    
-      
+      initial={{ y: -500 }}
+      animate={{
+        y: 0,
+        transition: {
+          duration: 1,
+        },
+      }}
     >
       <div className="flex flex-col items-center">
-        <div className="w-36 h-36 bg-slate-400 rounded-full flex justify-end items-start overflow-hidden">
+        <div className="w-36 h-36 bg-slate-400 rounded-full flex justify-end items-start overflow-hidden shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
           <Image
             src="/perfilThiago.jpeg"
             alt="checked"

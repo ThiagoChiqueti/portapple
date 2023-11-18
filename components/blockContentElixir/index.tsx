@@ -20,40 +20,20 @@ const BlockContentElixir: React.FC = () => {
           <p>Banco de dados PostgreSQL</p>
         </div>
         <div className="w-80 flex flex-col justify-center items-center gap-2 mb-3 md:-mt-10">
-          <div className="flex gap-4">
-            <App_icon
-              src="/elixir.svg"
-              alt="Veja o código"
-              height={60}
-              width={60}
-              name="Elixir"
-            />
-            <App_icon
-              src="/postgres.svg"
-              alt="postgres"
-              height={60}
-              width={60}
-              name="Postgres"
-            />
-          </div>
-          <div className="flex gap-4">
-            <App_icon
-              src="/docker.svg"
-              alt="Docker"
-              height={60}
-              width={60}
-              name="Docker"
-            />
-            <App_icon
-              src="/github.svg"
-              alt="Veja o código"
-              height={60}
-              width={60}
-              name="Code"
-            />
+         
+          <div className="flex gap-6">
+            
+              <a
+                href="https://github.com/ThiagoChiqueti/ElixirApi"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <App_icon src="/github.svg" alt="Veja o código" name="Code" />
+              </a>
+            </div>
           </div>
         </div>
-      </div>
+  
     </>
   );
 };

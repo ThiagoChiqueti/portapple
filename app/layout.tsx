@@ -6,8 +6,8 @@ import Navbar from "@/components/navbar";
 const inter = Poppins({ weight: "400", preload: false });
 
 export const metadata: Metadata = {
-  title: "Thiago Chiqueti",
-  description: "De um programador para programadores",
+  title: "Thiago Chiqueti | Portifólio",
+  description: "Programador apaixonado por desafios!",
   icons: "/check.svg",
 };
 
