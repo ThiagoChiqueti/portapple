@@ -8,15 +8,13 @@ const StackSection: React.FC = () => {
         <App_icon
           src="/react.svg"
           alt="React"
-          height={60}
-          width={60}
+          
           name="React"
         />
         <App_icon
           src="/python.svg"
           alt="Python"
-          height={60}
-          width={60}
+         
           name="Python"
         />
 
@@ -24,8 +22,7 @@ const StackSection: React.FC = () => {
           <App_icon
             src="/elixir.svg"
             alt="Elixir"
-            height={60}
-            width={60}
+          
             name="Elixir"
           />
         </a>
@@ -33,22 +30,19 @@ const StackSection: React.FC = () => {
         <App_icon
           src="/node.svg"
           alt="Node"
-          height={60}
-          width={60}
+          
           name="NodeJs"
         />
         <App_icon
           src="/postgres.svg"
           alt="postgres"
-          height={60}
-          width={60}
+          
           name="Postgres"
         />
         <App_icon
           src="/docker.svg"
           alt="Docker"
-          height={60}
-          width={60}
+         
           name="Docker"
         />
       </div>
