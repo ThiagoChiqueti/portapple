@@ -15,8 +15,8 @@ export default function Home() {
           <Profile />
           <StackSection />
 
-          <div className="flex flex-row justify-between flex-wrap gap-4 w-full">
-            <div className="flex flex-wrap">
+          <div className="flex flex-row flex-wrap gap-4 w-full">
+            <div className="flex flex-wrap items-center w-full">
               <About />
 
               <Note
@@ -33,9 +33,8 @@ export default function Home() {
             <Block>
               <BlockContentElixir />
             </Block>
-            
           </div>
-          
+
           <div className="mb-40"></div>
         </Container>
       </main>

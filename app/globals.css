@@ -12,15 +12,7 @@
   scroll-behavior: smooth;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+
 
 body::-webkit-scrollbar {
   width: 8px;               /* width of the entire scrollbar */
