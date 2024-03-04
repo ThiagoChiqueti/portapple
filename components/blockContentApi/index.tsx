@@ -13,7 +13,6 @@ const BlockContentApi: React.FC = async () => {
           <p className="text-xl"> Consumindo uma Api</p>
           <p>Consulta do preço do bitcoin em tempo real</p>
           <p>A consulta atualiza automaticamente à cada 30 segundos</p>
-          <p>Axios</p>
         </div>
         <div className=" w-56 flex flex-col justify-center items-center gap-2 mb-3 md:-mt-10">
           <div className="flex gap-4">

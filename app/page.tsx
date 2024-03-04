@@ -6,6 +6,7 @@ import Container from "@/components/container";
 import Note from "@/components/note";
 import Profile from "@/components/profile";
 import StackSection from "@/components/stackSection";
+import Tag_Powered from "@/components/tagPowered";
 
 export default function Home() {
   return (
@@ -35,7 +36,12 @@ export default function Home() {
             </Block>
           </div>
 
+
+
+          <Tag_Powered />
+
           <div className="mb-40"></div>
+
         </Container>
       </main>
     </>
