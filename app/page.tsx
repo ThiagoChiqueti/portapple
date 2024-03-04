@@ -16,13 +16,13 @@ export default function Home() {
           <StackSection />
 
           <div className="flex flex-row flex-wrap gap-4 w-full">
-            <div className="flex flex-wrap items-center w-full">
+            <div className="flex flex-wrap items-around justify-between w-full">
               <About />
 
               <Note
                 title="Objetivo"
-                text="Estou no início de minha carreira e busco uma oportunidade 
-                para demonstrar e desenvolver minhas habilidades e talentos. Para compensar a pouca experiência carrego comigo muito empenho e dedicação."
+                text="Estou me desenvolvendo como programador,
+                tenho habilidades focadas no backend e no desenvolvimento de automações, além de conhecer um pouco do mundo frontend."
               />
             </div>
 

@@ -7,12 +7,12 @@ const About: React.FC = () => {
         <h1 className="text-white px-4 text-2xl font-bold">Sobre</h1>
         <div className="text-white p-4">
           <p>
-            Sou um desenvolvedor movido à desafios! Hoje procuro crescimento
-            profissional e aprendizado como método de constante evolução.
+            Sou o tipo de pessoa que monta e desmonta tudo para entender o funcionamento.
+            Sempre busco uma maneira de melhorar meu trabalho através da tecnologia e ganho muito aprendizado fazendo isso, seja fazendo uma automação para coletar dados 
+            ou até mesmo algum projeto com Arduino.
           </p>
           <p>
-            Apaixonado por entender como tudo funciona estou sempre aprendendo
-            uma automação nova ou o funcionamento de alguma aplicação/Api
+            Sou apaixonado por entender como tudo funciona e sou 1000% focado no meu trabalho.
           </p>
         </div>
       </div>
