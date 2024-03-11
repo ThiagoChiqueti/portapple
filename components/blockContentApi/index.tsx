@@ -1,4 +1,3 @@
-import React from "react";
 import BitcoinAPI from "../bitcoinApi";
 
 const BlockContentApi: React.FC = async () => {

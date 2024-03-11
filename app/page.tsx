@@ -3,6 +3,7 @@ import Block from "@/components/block";
 import BlockContentApi from "@/components/blockContentApi";
 import BlockContentElixir from "@/components/blockContentElixir";
 import Container from "@/components/container";
+import Download from "@/components/download";
 import Note from "@/components/note";
 import Profile from "@/components/profile";
 import StackSection from "@/components/stackSection";
@@ -37,8 +38,11 @@ export default function Home() {
           </div>
 
 
+          <Download/>
 
           <Tag_Powered />
+
+         
 
           <div className="mb-40"></div>
 
