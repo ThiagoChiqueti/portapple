@@ -28,12 +28,14 @@ export default function Home() {
               />
             </div>
 
-            <Block>
-              <BlockContentApi />
-            </Block>
             <div className="w-full">
               <StackSection />
             </div>
+
+            <Block>
+              <BlockContentApi />
+            </Block>
+
             <Block>
               <BlockContentElixir />
             </Block>
