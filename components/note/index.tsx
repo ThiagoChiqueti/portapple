@@ -8,7 +8,7 @@ interface props {
 const Note: React.FC<props> = ({ text, title }) => {
   return (
     <motion.div
-      className="w-full lg:w-80 mt-4 bg-emerald-500 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80 shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+      className="w-full lg:w-80 mt-4 bg-sky-500 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80 shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
       initial={{
         opacity: 0,
         y: 50,

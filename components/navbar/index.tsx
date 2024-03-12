@@ -32,7 +32,9 @@ const Navbar: React.FC = () => {
           <div className="h-16 border-x bg-slate-500"></div>
 
           <a href="#top">
+
             <App_icon src="/up.svg" alt="Go up" />
+
           </a>
         </div>
       </div>

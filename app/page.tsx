@@ -12,10 +12,10 @@ import Tag_Powered from "@/components/tagPowered";
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col p-8 md:p-14 h-screen w-full items-center">
+      <main className="flex flex-col p-8 md:p-14 h-screen w-full items-center content-center">
         <Container>
           <Profile />
-          <StackSection />
+
 
           <div className="flex flex-row flex-wrap gap-4 w-full">
             <div className="flex flex-wrap items-around justify-between w-full">
@@ -31,18 +31,20 @@ export default function Home() {
             <Block>
               <BlockContentApi />
             </Block>
-
+            <div className="w-full">
+              <StackSection />
+            </div>
             <Block>
               <BlockContentElixir />
             </Block>
           </div>
 
 
-          <Download/>
+          <Download />
 
           <Tag_Powered />
 
-         
+
 
           <div className="mb-40"></div>
 

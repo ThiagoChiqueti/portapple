@@ -11,11 +11,11 @@ const Animation: React.FC<props> = ({children}) => {
   return (
     <motion.div
  
-      initial={{ y: -500 }}
+      initial={{ y: 250 }}
       animate={{
         y: 0,
         transition: {
-          duration: 0.6,
+          duration: 1,
         },
       }}
     >
