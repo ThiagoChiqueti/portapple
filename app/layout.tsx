@@ -18,6 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
+      <head>
+        <link rel="canonical" href="https://www.tg2labs.com.br"/>
+      </head>
       <body className={inter.className} id="#top">
         {children}
 
