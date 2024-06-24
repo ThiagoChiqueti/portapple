@@ -5,9 +5,11 @@ import Image from "next/image";
 const Profile: React.FC = () => {
   return (
     <motion.div
-      initial={{ y: -500 }}
+      initial={{
+        opacity: 0,
+      }}
       animate={{
-        y: 0,
+        opacity: 1,
         transition: {
           duration: 1,
         },

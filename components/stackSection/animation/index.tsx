@@ -11,9 +11,9 @@ const Animation: React.FC<props> = ({children}) => {
   return (
     <motion.div
  
-      initial={{ y: 250 }}
+      initial={{ opacity: 0 }}
       animate={{
-        y: 0,
+        opacity: 1,
         transition: {
           duration: 1,
         },
