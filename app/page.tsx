@@ -16,6 +16,9 @@ export default function Home() {
         <Container>
           <Profile />
 
+          <div className="w-full">
+            <StackSection />
+          </div>
 
           <div className="flex flex-row flex-wrap gap-4 w-full">
             <div className="flex flex-wrap items-around justify-between w-full">
@@ -23,13 +26,8 @@ export default function Home() {
 
               <Note
                 title="Objetivo"
-                text="Estou me desenvolvendo como programador,
-                tenho habilidades focadas no backend e no desenvolvimento de automações, além de conhecer um pouco do mundo frontend."
+                text="Busco trabalhar em um ambiente colaborativo onde eu possa desenvolver novas habilidades, contribuir com minhas ideias e ajudar a construir novos projetos."
               />
-            </div>
-
-            <div className="w-full">
-              <StackSection />
             </div>
 
             <Block>
@@ -41,15 +39,9 @@ export default function Home() {
             </Block>
           </div>
 
-
-          <Download />
-
           <Tag_Powered />
 
-
-
           <div className="mb-40"></div>
-
         </Container>
       </main>
     </>

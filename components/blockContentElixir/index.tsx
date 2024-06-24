@@ -6,18 +6,19 @@ import App_icon from "../app_icon";
 const BlockContentElixir: React.FC = () => {
   return (
     <>
-      <h2 className="text-white p-3 px-4 text-2xl font-bold" id="#elixir">
-        API Elixir:{" "}
+      <h2 className="text-gray-700 p-3 px-4 text-2xl font-bold" id="#elixir">
+        CRUD Elixir:{" "}
       </h2>
 
       <div className="flex justify-around flex-wrap gap-10">
-        <div className="text-white px-4 mb-6">
+        <div className="text-gray-700 px-4 mb-6">
           <p className="text-xl"> Principais funcionalidades:</p>
           <p>Cadastro e consulta de usuários</p>
           <p>Proteção de senhas com criptografia</p>
           <p>Autênticação de sessão ativa via token JWT</p>
+          <p>PostgreSQL</p>
           <p>Elixir, Phoenix e Ecto</p>
-          <p>Banco de dados PostgreSQL</p>
+          
         </div>
         <div className="w-80 flex flex-col justify-center items-center gap-2 mb-3 md:-mt-10">
          

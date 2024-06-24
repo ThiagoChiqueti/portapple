@@ -8,7 +8,7 @@ interface props {
 const Note: React.FC<props> = ({ text, title }) => {
   return (
     <motion.div
-      className="w-full lg:w-80 mt-4 bg-sky-500 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80 shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+      className="w-full lg:w-80 mt-4 rounded-2xl bg-clip-padding bg-slate-100 backdrop-filter backdrop-blur-sm shadow-[0px_10px_15px_0px_#b9b9b9]"
       initial={{
         opacity: 0,
         y: 50,
@@ -22,8 +22,8 @@ const Note: React.FC<props> = ({ text, title }) => {
       }}
       viewport={{ once: true }}
     >
-      <h2 className="text-white p-3 px-4 text-2xl font-bold">{title}</h2>
-      <div className="text-white px-4 mb-6">
+      <h2 className="text-sky-500 p-3 px-4 text-2xl font-bold">{title}</h2>
+      <div className="text-gray-700 px-4 mb-6">
         <p>{text}</p>
       </div>
     </motion.div>

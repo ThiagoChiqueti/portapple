@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 :root {
-  background: #040205;
-  background-image: url("/background.jpg");
+  background: #eeeeee;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
   return (
     <Animation>
       <div className="w-full flex flex-row items-center justify-center fixed bottom-5">
-        <div className="max-w-sm md:max-w-lg flex flex-row flex-1 items-center justify-center gap-4 p-3 bg-neutral-800 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-600 ">
+        <div className="max-w-sm flex flex-row flex-1 items-center justify-center gap-4 p-3 bg-neutral-800 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 ">
           <a href="https://linkedin.com/in/thiago-chiqueti" target="_blank">
             <App_icon src="/linkedin.svg" alt="Linkedin" />
           </a>

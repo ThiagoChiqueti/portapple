@@ -15,17 +15,17 @@ const App_icon: React.FC<props> = ({ src, alt, name }) => {
       whileHover={{ scale: 1.3 }}
       whileTap={{ scale: 0.9 }}
     >
-      <div className="bg-transparent rounded-xl w-12 h-12 sm:w-14 sm:h-14 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+      <div className="flex justify-center items-center bg-slate-100 rounded-xl w-12 h-12 sm:w-14 sm:h-14 shadow-[0px_5px_10px_0px_#b9b9b9]">
         <Image
           src={src}
           alt={alt}
-          width={60}
-          height={60}
+          width={45}
+          height={45}
           title={alt}
           className="rounded"
         />
       </div>
-      <p className="text-white">{name}</p>
+      <p className="">{name}</p>
     </motion.div>
   );
 };
