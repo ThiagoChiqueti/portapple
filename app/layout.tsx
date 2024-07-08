@@ -7,7 +7,7 @@ const inter = Poppins({ weight: "400", preload: false });
 
 export const metadata: Metadata = {
   title: "Thiago Chiqueti | Portifólio",
-  description: "Programador apaixonado por desafios!",
+  description: "Programador RPA e Backend",
   icons: "/check.svg",
 };
 
